@@ -5,7 +5,6 @@ layout: default
 <article>
     <h1>{{ page.title }}</h1>
     <time class="pos-time">{{ page.date }}</time>
-    {% toc %}
-    {{ page.content }}
+    {{ page.content | toc }}
 </article>
 
