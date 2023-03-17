@@ -1,11 +1,15 @@
 # Example Site settings
 title: not-buk
 #google_analytics: UA-NNNNNNNN-N
+# permalink config
+permalink: /:title:output_ext
 
+#header 
 header_pages:
   - index.md
   - artefak.md
 
+#footer
 footer: 'Tak kenal maka tak sayang, <a href="/tentang">Tentang aku.</a>'
 
 style: dark # dark (default) or light
@@ -13,3 +17,31 @@ listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-twitter-plugin
+  - jekyll-youtube
+  - jekyll-toc
+  - jekyll-archives
+
+#tag config
+tag_permalink_style: pretty  
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# toc config
+toc:
+  min_level: 2 # default: 1
+  max_level: 5 # default: 6
+
+# jekyll archives 
+
+jekyll-archives:
+  enabled: all
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
+# end setting jekyll-theme-console
