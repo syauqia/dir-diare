@@ -14,8 +14,9 @@ layout: default
     </li>
     {%- endfor -%}
   </ul>
+  <h2>Tag: </h2>
+  <div id="tag-cloud">
+    {{ site | tag_cloud }}
+  </div>
 {%- endif -%}
-<h2>Tag: </h2>
-<div id="tag-cloud">
-  {{ site | tag_cloud }}
-</div>
+
