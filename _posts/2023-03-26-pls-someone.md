@@ -7,4 +7,4 @@ tags: [opini, quote]
 toc: false
 ---
 
-Be my bestfriend in public,but lover in private. <3
+> Be my bestfriend in public,but lover in private. <3
