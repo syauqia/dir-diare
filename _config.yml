@@ -6,11 +6,11 @@ permalink: /:title:output_ext
 
 #header 
 header_pages:
-  - index.md
+  - jurnal.md
   - artefak.md
 
 #footer
-footer: 'Tak kenal maka tak sayang, <a href="/tentang">Tentang aku.</a>'
+footer: 'Pergi jauh jangan lupa <a href="/">pulang.</a>'
 
 style: dark # dark (default) or light
 listen_for_clients_preferred_style: true # true or false (default)

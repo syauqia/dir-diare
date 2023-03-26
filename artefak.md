@@ -1,4 +1,4 @@
 ---
 layout: archive
-title: ./Artefak
+title: ./artefak
 ---
