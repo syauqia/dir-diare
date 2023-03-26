@@ -44,4 +44,15 @@ jekyll-archives:
     tag: '/tag/:name/'
     category: '/category/:name/'
 
+#compress
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+  
 # end setting jekyll-theme-console
