@@ -6,7 +6,7 @@ permalink: /tentang
 # Profil
 Nama : Uq
 
-Perkenalkan nama saya , memiliki hobi .... dan .... 
+Perkenalkan nama saya UQ dibaca _Uki_, memiliki hobi menghayal dan sangat menyukai yang namanya **_coffee_** , coffee dalam bentuk apapun,baik minuman atau wangi-wangian hehe... 
 
 # Link Media Sosial
 - Instagram : [@qqyxq](https://www.instagram.com/qqyxq/ "Instagram Profil : UKI ")
