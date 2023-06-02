@@ -55,4 +55,17 @@ compress_html:
   profile: false
   startings: []
   
+#disqus
+disqus:
+shortname: syauqia48
+
+#default 
+defaults:
+    -
+      scope:
+        path: ""
+        type: "posts"
+      values:
+        layout: "post"
+        comments: true   # change to false to default to comments off site-wide
 # end setting jekyll-theme-console
