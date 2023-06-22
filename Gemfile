@@ -13,3 +13,5 @@ gem "jekyll-toc"
 gem "jekyll-youtube"
 gem "jekyll-archives"
 gem "webrick"
+gem 'jekyll-disqus'
+gem "kramdown-parser-gfm"
