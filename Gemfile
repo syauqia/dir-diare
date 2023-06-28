@@ -5,6 +5,8 @@ gemspec
 
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
+
+gem 'github-pages'
 gem 'jekyll-seo-tag'
 gem 'jekyll-compose'
 gem "jekyll-twitter-plugin"
