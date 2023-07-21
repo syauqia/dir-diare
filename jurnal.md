@@ -1,4 +1,0 @@
----
-layout: jurnal
-title: ./jurnal
----

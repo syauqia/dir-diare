@@ -1,17 +1,18 @@
 ---
+title: Colophon
+permalink: /about/
 layout: page
-title: ./Tentang
-permalink: /tentang
+excerpt: Hello leds, I am a student of Communication science at Universitas Komputer Indonesia.Born in Sorowako,South Sulawesi, and live in Bandung.
+
+comments: false
 ---
-# Profil
-Nama : Uq
 
-Perkenalkan nama saya UQ dibaca _Uki_, memiliki hobi menghayal dan sangat menyukai yang namanya **_coffee_** , coffee dalam bentuk apapun,baik minuman atau wangi-wangian hehe... 
+He is a student from Sorowako, living in Bandung. This blog is for documentation of him life journey 🎒, or a personal vent. He also loves coffee, coffee in any form such as fragrance.
 
-# Link Media Sosial
-- Instagram : [@qqyxq](https://www.instagram.com/qqyxq/ "Instagram Profil : UKI ")
-- Unsplash : [@tuanmudauki](https://unsplash.com/@tuanmudauki "Sekumpulan foto aneh")
-- Discord : UQ#9662
-- Spotify : [@uki](https://open.spotify.com/user/syauqia48 "Dengar lagu bersamaku dengan playlist anehku")
-- ~~Whatsapp :08****~~
+If you have a question about him or else, just send a letter to him.
+
+
+**may u needs ✨**
+
+- {{ site.author.email }}
 

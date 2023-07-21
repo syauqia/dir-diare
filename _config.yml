@@ -1,71 +1,93 @@
-# Example Site settings
-title: ky is my id
-#google_analytics: UA-NNNNNNNN-N
-# permalink config
-permalink: /:title:output_ext
+# Site settings
+title: dir-diare  # site title
+description: >- # site description
+  He's writing in Bahasa about web technology and experience as a journal 
+  for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
+lang: en-US # default lang
+timezone: Asia/Jakarta # set your timezone
+image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
+repo: https://github.com/syauqia/syauqia.github.io # site repo [optional]
+mode: dark # default theme "dark" | "light"
 
-#header 
-header_pages:
-  - jurnal.md
-  - artefak.md
+# Profile settings
+author:
+  name: Uki # author name
+  bio: >- # tell to the world
+    coffee ?
+  username: syauqia48 # general username
+  github: github_username # github username
+  twitter: asetdunia # twitter username
+  facebook: facebook_username # facebook username
+  email: mrveranda@gmail.com # email adress
+  avatar: /assets/img/avatar.jpg # change with your own avatar
 
-#footer
-footer: 'Pergi jauh jangan lupa <a href="/">pulang.</a>'
+# URL settings
+url: "https://kyis.my.id" #
+baseurl: 
+permalink: /:title/
+google_analytics: # leave it blank if not wish
+fb_appid:
 
-style: dark # dark (default) or light
-listen_for_clients_preferred_style: true # true or false (default)
+# Collection setting
+collections:
+  posts:
+    output: true
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-twitter-plugin
-  - jekyll-youtube
-  - jekyll-toc
-  - jekyll-archives
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
 
-#tag config
-tag_permalink_style: pretty  
-tag_page_layout: tag_page
-tag_page_dir: tag
-
-# toc config
-toc:
-  min_level: 2 # default: 1
-  max_level: 5 # default: 6
-
-# jekyll archives 
-
-jekyll-archives:
-  enabled: all
-  layout: archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
-
-#compress
-compress_html:
-  clippings: []
-  comments: []
-  endings: []
-  ignore:
-    envs: []
-  blanklines: false
-  profile: false
-  startings: []
-  
-#disqus
-disqus:
-shortname: syauqia48
-
-#default 
+# Default front matter
 defaults:
-    -
-      scope:
-        path: ""
-        type: "posts"
-      values:
-        layout: "post"
-        comments: true   # change to false to default to comments off site-wide
-# end setting jekyll-theme-console
+  - scope:
+      path: ""
+    values:
+      layout: post
+      comments: false
+
+# Jekyll Compose default front matter
+jekyll_compose:
+  post_default_front_matter:
+    modified:
+    tags: []
+    description:
+  draft_default_front_matter:
+    modified:
+    tags: []
+    description:
+
+# Homepage limit posts
+number_of_posts: 5
+
+# Build settings
+# theme: klise
+sass:
+  style: compressed
+
+  disqus_shortname: "syauqia48"
+
+include:
+  - _redirects
+  - .htaccess
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - CHANGELOG.md
+  - README.md
+  - node_modules
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - lighthouse.png
+  - klise-*.gem
+  - klise.gemspec
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-postfiles
