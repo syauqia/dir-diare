@@ -60,6 +60,9 @@ jekyll_compose:
 # Homepage limit posts
 number_of_posts: 5
 
+# Disqus 
+discus_identifier: syauqia48 # Add your Disqus identifier
+
 # Build settings
 # theme: klise
 sass:
