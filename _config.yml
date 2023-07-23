@@ -1,7 +1,7 @@
 # Site settings
 title: dir-diare  # site title
 description: >- # site description
-  This blog is about my life journey or my daily vent.
+  - Daily happenings,special occasions, and reflections on ma goals
 lang: en-US # default lang
 timezone: Asia/Jakarta # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
