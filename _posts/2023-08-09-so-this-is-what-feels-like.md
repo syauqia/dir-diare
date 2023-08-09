@@ -8,10 +8,6 @@ icon: 🌩
 toc: false 
 ---
 
-# 🌩 So this is what feels like
-
-Created: July 23, 2023 9:42 PM
-
 ### Hei guys,
 
 Lately, or more precisely after this feeling arose, a feeling that I cannot express to Him. Actually, it's easy, just say, "*Hey **N**, actually I blablabla you, what should we do?*" But I don't know why it's so difficult for me to do that. Maybe it's because of **my ego** or **fear of rejection**, I don't know.
