@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<header>
+<section class="hero is-fullheight">
+  <div class="hero-body">
+    <div class="">
+      <h1 class="title">
+        {{ site.title }}
+      </h1>
+      <p class="subtitle">
+    {{ site.description }}
+      </p>
+    </div>
+  </div>
+</section>
+</header>
+
+  <div class="columns">
+    <div class="column is-half">
+        <h2>Journal :</h2>
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <span class="is-date"> {{ post.date | date: "%d %b %y" }} </span> <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+
+
+
+    </div>
+    <div class="column">
+      <h2>Karya : </h2>
+
+<p>Belum punya karya 😭</p>
+
+    </div>
+  </div>
+
+
+{{ content }}
