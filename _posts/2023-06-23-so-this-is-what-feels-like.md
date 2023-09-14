@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "So this is what feels like"
+description: "This is about love or what?"
 categories: personal
 tags: [opini, kutipan]
 toc: false
