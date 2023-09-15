@@ -2,7 +2,7 @@
 title: Fase Pertama
 layout: post
 date: 2023-03-17 14:48:00 +0800
-categories: [Buku, Kuote]
+categories: personal
 tags: [opini, quote]
 toc: false
 comments: true
