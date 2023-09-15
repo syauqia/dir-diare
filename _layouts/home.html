@@ -9,7 +9,7 @@ layout: default
         <ul>
           {% for post in site.posts %}
             <li>
-              <span class="is-date"> {{ post.date | date: "%d %b %y" }} </span> <a href="{{ post.url }}">{{ post.title }}</a>
+              <span class="is-date"> {{ post.date | date: "%d %b %y" }} </span> {{post.icon}}<a href="{{ post.url }}">{{ post.title }}</a>
             </li>
           {% endfor %}
         </ul>

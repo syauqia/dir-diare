@@ -6,6 +6,8 @@ categories: personal
 tags: [opini, quote]
 toc: false
 comments: true
+icon: 🕛
+rangkum: 
 ---
 
 > Kalau kamu butuh,panggil saja aku.Mau aku sedang capek,marah,punya masalah sendiri,atau bahkan tidur.Aku bakal ada buat kamu,jadi jangan berpikir atau bilang aku bakal risih,aku senang di repotin sama kamu.

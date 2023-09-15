@@ -27,8 +27,29 @@ layout: default
     <div class="post-content e-content" itemprop="articleBody">
       {{ content }}
     </div>
-    {% include disqus_comments.html %}
     {% include breadcrumbs.html %}
+    <hr/>
+    <div class="columns">
+      <div class="column is-three-quarters">
+        {% include disqus_comments.html %}
+      </div>
+      <div class="column">
+        
+        <div class="card rangkum">
+          <div class="card-content">
+            <p class="title">
+              
+              “{{post.rangkum}}”
+            </p>
+            <p class="subtitle">
+             - UKI
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
   
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
   </article>
