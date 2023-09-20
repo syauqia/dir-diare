@@ -3,9 +3,9 @@ layout: default
 ---
 {% include header.html %}
 <section class="section is-large">
-  <div class="columns">
-    <div class="column is-half">
-        <h2>Journal :</h2>
+  <main class="page-content" aria-label="Content">
+    <div class="container  is-max-desktop">
+      <section class="section is-large">
         <ul>
           {% for post in site.posts %}
             <li>
@@ -13,17 +13,8 @@ layout: default
             </li>
           {% endfor %}
         </ul>
-
-
-
-    </div>
-    <div class="column">
-      <h2>Karya : </h2>
-
-<p>Belum punya karya 😭</p>
-
-    </div>
-  </div>
+      </section>
+</main>
 </section>
 
 

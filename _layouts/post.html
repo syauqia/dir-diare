@@ -7,48 +7,46 @@ layout: default
   <!-- Hero content: will be in the middle -->
   <section class="hero">
     <div class="hero-body">
+      <a href="/"> &#8592; </a>
       <p class="title">
         {{ page.title}}
       </p>
       <p class="subtitle">
         {{ page.description }}
       </p>
-      {% if post %}
-      {% assign categories = post.categories %}
-    {% else %}
-      {% assign categories = page.categories %}
-    {% endif %}
-    {% for category in categories %}
-    <a href="{{site.baseurl}}/categories/{{category|slugize}}">{{category}}</a>
-    {% unless forloop.last %}&nbsp;{% endunless %}
-    {% endfor %}
+
+      <div class="columns">
+        <div class="column is-one-quarter">
+          <p>
+
+            {% if post %}
+            {% assign categories = post.categories %}
+          {% else %}
+            {% assign categories = page.categories %}
+          {% endif %}
+          {% for category in categories %}
+          <a href="{{site.baseurl}}/categories/{{category|slugize}}">{{category}}</a>
+          {% unless forloop.last %}&nbsp;{% endunless %}
+          {% endfor %}
+
+          </p>
+
+
+        </div>
+
+        <div class="column">
+
+<p class='date-posts'>{{ page.date | date: "%-d %B %Y" }}</p> 
+
+
+        </div>
+      </div>
     </div>
   </section>
     <div class="post-content e-content" itemprop="articleBody">
       {{ content }}
-    </div>
-    {% include breadcrumbs.html %}
-    <hr/>
-    <div class="columns">
-      <div class="column is-three-quarters">
-        {% include disqus_comments.html %}
-      </div>
-      <div class="column">
-        
-        <div class="card rangkum">
-          <div class="card-content">
-            <p class="title">
-              
-              “{{post.rangkum}}”
-            </p>
-            <p class="subtitle">
-             - UKI
-            </p>
-          </div>
-
-        </div>
-
-      </div>
+      <hr/>
+      {% include disqus_comments.html %}
     </div>
   
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
