@@ -3,12 +3,11 @@ layout: post
 title:  "So this is what feels like"
 description: "This is about love or what?"
 categories: personal
+author: Uki
 tags: [opini, kutipan]
 toc: false
 comments: true
 icon: 🌩️
-rangkum: Remember that it's okay to take your time and that there's no rush to make any decisions.
-
 ---
 
 ### Hei guys,

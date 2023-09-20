@@ -4,6 +4,7 @@ layout: post
 date: 2023-03-17 14:48:00 +0800
 categories: personal
 tags: [opini, quote]
+author: Uki
 toc: false
 comments: true
 icon: 🕛

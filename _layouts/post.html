@@ -33,20 +33,20 @@ layout: default
 
 
         </div>
-
-        <div class="column">
-
-<p class='date-posts'>{{ page.date | date: "%-d %B %Y" }}</p> 
-
-
-        </div>
       </div>
     </div>
   </section>
     <div class="post-content e-content" itemprop="articleBody">
       {{ content }}
+      <div class="post-meta">
+        {% if page.author %}
+          <div itemprop="author" class="penulis"><i>{{ page.author }}</i></div>
+        {% endif %}
+        <time class="posts-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
+      </div>
       <hr/>
       {% include disqus_comments.html %}
+      {% include post-pagination.html %}
     </div>
   
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
