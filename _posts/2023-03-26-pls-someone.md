@@ -8,7 +8,6 @@ author: Uki
 toc: false
 comments: true
 icon: 🌩️
-rangkum: 
 ---
 
 > Be my bestfriend in public,but lover in private. <3
