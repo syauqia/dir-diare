@@ -33,6 +33,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-toc
+  
 gems:
 - jekyll-typogrify
 #jekyll composee
