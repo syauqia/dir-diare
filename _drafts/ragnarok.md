@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  Ragnarok
+title: Ragnarok
 categories: personal
-tags: [opini, game] 
+tags:
+- opini
+- game
 author: Uki
 toc: false
 comments: true
-icon: 🦠
+icon: "\U0001F9A0"
 ---
-
 Sudah tahun 2021 tetapi pandemi ini masih belum berakhir dan malah sebaliknya yaitu memburuk.Saya pribadi sudah sangat bosan dengan keterbatasan kegiatan yang bisa dilakukan,tidak sebebas sebelum adanya pandemi ini.Beberapa bulan sebelum memburuk lagi seperti sekarang saya berpikir ini sudah mulai berakhir tetapi nyatanya tidak,kegiatan-kegiatan yang kemarin sudah mulai di bolehkan sekarang malah ditutup atau dilarang lagi.

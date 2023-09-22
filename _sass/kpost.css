@@ -1,0 +1,12 @@
+
+.post {
+
+}
+  .post-title {
+    color: var(--color);
+  }
+.post-meta {
+}
+  .post-excerpt {
+    color: #99999d;
+  }

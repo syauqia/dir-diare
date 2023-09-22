@@ -32,6 +32,32 @@ permalink: /:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-toc
+gems:
+- jekyll-typogrify
+#jekyll composee
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      description:
+      image:
+      category:
+      tags:
+      published: false
+      sitemap: false
+      icon: 
+      comments: true
+      toc: false
+    posts:
+      description:
+      image:
+      category:
+      tags:
+      published: false
+      sitemap: false
+      icon: 
+      comments: true
+      toc: false
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -48,7 +74,7 @@ pagination:
   collection: 'posts'
 
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 10
+  per_page: 3
 
   # The permalink structure for the paginated pages (this can be any level deep)
   permalink: '/page/:num/' # Pages are index.html inside this folder (default)
