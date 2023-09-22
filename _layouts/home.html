@@ -16,7 +16,7 @@ layout: default
             <div class="post">
               <h2 class="post-title">
                 <a href="{{ post.url | relative_url }}">
-                  {{ post.title }}
+                  {{post.icon}}{{ post.title }}
                 </a>
               </h2>
               <time datetime="{{ post.date | date_to_xmlschema }}" class="post-meta is-right">{{ post.date | date_to_string }}</time>

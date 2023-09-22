@@ -41,6 +41,7 @@ jekyll_compose:
   default_front_matter:
     drafts:
       description:
+      date:
       image:
       category:
       tags:
@@ -51,15 +52,29 @@ jekyll_compose:
       toc: false
     posts:
       description:
+      date:
       image:
       category:
       tags:
-      published: false
+      published: true
       sitemap: false
       icon: 
       comments: true
       toc: false
+      author: Uki
 
+#toc
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  list_id: my-toc-id # Default: "toc"
+  list_class: my-list-class # Default: "section-nav"
+  sublist_class: my-sublist-class # Default: no class for sublists
+  item_class: my-item-class # Default: "toc-entry"
+  item_prefix: item- # Default: "toc-":
+  
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set

@@ -39,7 +39,12 @@ pagination:
     </div>
   </section>
     <div class="post-content e-content" itemprop="articleBody">
-      {{ content }}
+      <div id="table-of-contents">
+        {% toc %}
+      </div>
+      <div id="markdown-content">
+        {{ content }}
+      </div>
       <div class="post-meta">
         {% if page.author %}
           <div itemprop="author" class="penulis"><i>{{ page.author }}</i></div>

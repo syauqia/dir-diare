@@ -193,7 +193,7 @@ p { margin: 1rem 0; }
 
 li { margin: 0.4rem 0; }
 
-*:target { background: yellow; }
+*:target { background:#cea465 }
 
 hr {
   text-align: center;
@@ -273,3 +273,5 @@ article .title {
 .pots-date {
 
 }
+.footnotes {margin:2% auto;padding:0 5%}
+.footnotes p, li, mark, a, blockquote {font-size:100%}

@@ -5,7 +5,7 @@ description: "This is about love or what?"
 categories: personal
 author: Uki
 tags: [opini, kutipan]
-toc: false
+toc: true
 comments: true
 icon: 🌩️
 ---
