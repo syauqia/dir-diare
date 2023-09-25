@@ -1,12 +1,11 @@
 <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        <strong>{{ site.title }}</strong> by <a href="https://www.instagram.com/syauqashdllh/">@syauqashdllh</a> make with 💔 and 💸
-      </p>
-    </div>
-  </footer>
-
-  {% if page.custom_js %}
+  <div class="is-small">
+    <p>
+      <strong>{{ site.title }}</strong> by <a href="https://www.instagram.com/syauqashdllh/">@syauqashdllh</a> make with 💔 and 💸
+    </p>
+  </div>
+</footer>
+ {% if page.custom_js %}
   {% for js_file in page.custom_js %}
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/{{ js_file }}.js"></script>
   {% endfor %}

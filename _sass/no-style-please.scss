@@ -158,54 +158,86 @@ h6 {
   font-weight: calc(var(--font-weight) * 1);
   font-family: var(--font-family);
 }
-html, body { background:#111}
+html,
+body {
+  background: #111;
+}
 
-html { height: 100%; }
+html {
+  height: 100%;
+}
 
 body {
-  color:#EEEEEE;
+  color: #eeeeee;
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
   overflow-wrap: break-word;
 }
 a {
-  color: #FFD369
+  color: #ffd369;
 }
 a:hover {
-  color:#b7a038
+  color: #b7a038;
 }
 a:active {
- color:#cea465;
- text-decoration:line-through;
+  color: #cea465;
+  text-decoration: line-through;
 }
 hr {
-  background:#393E46
+  background: #393e46;
 }
-strong { color:azure}
-.post-meta { text-align: right; }
+strong {
+  color: azure;
+}
+.post-meta {
+  text-align: right;
+}
 
-h2, h3, h4, h5, h6 { margin-top: 3rem; color :antiquewhite}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 3rem;
+  color: antiquewhite;
+}
 
-hr { margin: 2rem 0; }
+hr {
+  margin: 2rem 0;
+}
 
-p { margin: 1rem 0; }
+p {
+  margin: 1rem 0;
+}
 
-li { margin: 0.4rem 0; }
+li {
+  margin: 0.4rem 0;
+}
 
-*:target { background:#cea465 }
+*:target {
+  background: #cea465;
+}
 
 hr {
   text-align: center;
   border: 0;
 
-  &:before { content: '/////' }
-  &:after { content: attr(data-content) '/////' }
+  &:before {
+    content: "/////";
+  }
+  &:after {
+    content: attr(data-content) "/////";
+  }
 }
 
-table { width: 100%; }
+table {
+  width: 100%;
+}
 
-table, th, td {
+table,
+th,
+td {
   border: thin solid rgb(155, 155, 155);
   border-collapse: collapse;
   padding: 0.4rem;
@@ -228,7 +260,9 @@ blockquote {
   border: thin solid rgb(173, 173, 173);
   padding: 1rem;
 
-  p { margin: 0; }
+  p {
+    margin: 0;
+  }
 }
 
 img {
@@ -236,45 +270,76 @@ img {
   display: block;
   margin: 0 auto;
 }
-
+.page-content {
+  padding: 0 1.5rem;
+}
 h1.title {
-  color:antiquewhite
+  color: antiquewhite;
 }
 article .title {
-  color:antiquewhite;
+  color: antiquewhite;
 }
-
+.menu {
+  padding: 0 1.5rem;
+}
+ul.nav li a {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+ul.nav li a:active {
+  text-decoration: line-through;
+  color:#4a4a4a;
+}
+ul.nav li a:focus {
+  text-decoration: line-through;
+  color:#4a4a4a;
+}
 .is-date {
   background: rgba(20, 0, 3, 0.85);
   align-items: center;
   border-radius: 4px;
   color: #f500008e;
   display: inline-flex;
-  font-size: .75rem;
+  font-size: 0.75rem;
   height: 2em;
   justify-content: center;
   line-height: 1.5;
-  padding-left: .75em;
-  padding-right: .75em;
-  white-space: nowrap
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
 }
 .footer {
-  background: #060606;
+  padding:5% 1.5rem;
+  background:transparent;
 }
-.rangkum {background:transparent}
-.rangkum .subtitle {color:darkgray}
+.rangkum {
+  background: transparent;
+}
+.rangkum .subtitle {
+  color: darkgray;
+}
 
-.post-content {    padding: 0 5%;}
+.post-content {
+  padding: 0 5%;
+}
 .post-meta {
   margin-bottom: 2em;
-    margin-top: 2em;
-    text-align: right;
+  margin-top: 2em;
+  text-align: right;
 }
 .pots-date {
-
 }
-.footnotes {margin:2% auto;padding:0 5%}
-.footnotes p, .footnotes li, .footnotes mark, .footnotes a, .footnotes blockquote {font-size:100%}
+.footnotes {
+  margin: 2% auto;
+  padding: 0 5%;
+}
+.footnotes p,
+.footnotes li,
+.footnotes mark,
+.footnotes a,
+.footnotes blockquote {
+  font-size: 100%;
+}
 .PageNavigation {
   font-size: 14px;
   display: block;

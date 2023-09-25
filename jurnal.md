@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: jurnal
-title: Dir-diere   
-description: Buku catatan <i> alias </i> Buku tulis onlen
+title: Juornal
+description: someshit things
+permalink: /journal/
 ---
