@@ -4,5 +4,5 @@
 
 layout: jurnal
 title: Dir-diere   
-description: Buku catatan <i> alias </i> Buku tulis onlen
+description: Buku catatan <i> alias </i> buku tulis onlen
 ---

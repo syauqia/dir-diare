@@ -283,7 +283,6 @@ article .title {
   padding: 0 1.5rem;
 }
 ul.nav li a {
-  padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
 ul.nav li a:active {
@@ -329,6 +328,10 @@ ul.nav li a:focus {
 }
 .pots-date {
 }
+.post-meta a {
+  color:#c1c1c1;
+  font-size:75%;
+}
 .footnotes {
   margin: 2% auto;
   padding: 0 5%;
@@ -352,6 +355,7 @@ ul.nav li a:focus {
   width: 50%;
   float: left;
   margin: 1em 0;
+  font-weight: bold;
 }
 
 .PageNavigation .next {

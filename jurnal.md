@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: jurnal
-title: Juornal
+title: Journal
 description: someshit things
 permalink: /journal/
 ---

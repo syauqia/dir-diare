@@ -6,5 +6,5 @@ permalink: /about/
 
 ### Hallo
 
-perkenalkan nama saya adalah Uki , lahir di sulawesi , Indonesia.
-Kesukaan aku adalah , ngopi + live music
+Introducing my name is Uki, born in Sulawesi, Indonesia.
+My favourite things are coffee + live music.
