@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "So this is what feels like"
+title:  "So This is What Feels Like"
 description: "This is about love or what?"
 categories: personal
 author: Uki
