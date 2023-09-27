@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Apa pun yang Terjadi
-description: Di kehidupan, di masa lalu, dalam buku kita masih indah.
+title: <i>Apa pun yang Terjadi</i>
+description: <i>Di kehidupan, di masa lalu, dalam buku kita masih indah.</i>
 date: 2023-09-28 04:15 +0700
 image:
 category: personal
