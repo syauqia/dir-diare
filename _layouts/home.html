@@ -1,5 +1,15 @@
 ---
 layout: default
+pagination: 
+  enabled: true
 ---
 {% include header.html %}
+{% include navi.html %}
+  <main class="page-content" aria-label="Content">
+        <div class="posts">
+            {% include post_list.html %}
+            
+        </div>        
+  </main>
+
 {{ content }}
