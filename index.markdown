@@ -4,5 +4,5 @@
 
 layout: home
 title: Dir-diere   
-description: Buku catatan <i> alias </i> buku tulis onlen
+description: Tempat menulis onlen <i>alias</i> buku onlen pribadi
 ---
