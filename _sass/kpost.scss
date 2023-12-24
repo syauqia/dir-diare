@@ -1,12 +1,15 @@
+/* POST LIST */
 
-.post {
+.post-list li {
+  border: 1px solid grey;
+  margin: 3% 0;
+  padding: 5%;
+}
+.post-list li h2 {
+  margin:0
+}
 
+.post-list li time {
+  font-size: 50%;
+  color: grey;
 }
-  .post-title {
-    color: var(--color);
-  }
-.post-meta {
-}
-  .post-excerpt {
-    color: #99999d;
-  }

@@ -7,7 +7,16 @@ pagination:
 {% include navi.html %}
   <main class="page-content" aria-label="Content">
         <div class="posts">
-            {% include post_list.html %}
+          <div class="columns">
+            <div class="column">
+              <h6> Journal : </h6>
+              {% include post_list.html %}
+            </div>
+            <div class="column">
+              <h6> Art : </h6>
+            </div>
+          </div>
+            
             
         </div>        
   </main>
